@@ -1,5 +1,5 @@
-streamlit==1.59.2
+streamlit
 requests==2.34.2
 numpy==2.5.1
 biopython==1.88
-py3Dmol==2.5.53
+py3Dmol
