@@ -1,3 +1,4 @@
+#press ctrl+shift+G
 streamlit
 requests==2.34.2
 numpy==2.5.1

@@ -618,7 +618,7 @@ pdb_ids = st.text_input("PDB IDs (comma-separated)", "1UBQ, 1LYZ, 6LYZ")
 
 if st.button("Run Benchmark"):
      results = []
-     for pdb_id in [p.strip() for p in pdb_ids.split(",")]:
+     for pdb_id in [p.rip() for p in pdb_ids.split(",")]:
          with st.spinner(f"Processing {pdb_id}..."):
              chain_results = benchmark_all_chains(pdb_id)
              for r in chain_results:
