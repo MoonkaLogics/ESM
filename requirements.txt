@@ -1,6 +1,5 @@
 streamlit
-stmol
+requests==2.34.2
+numpy==2.5.1
+biopython==1.88
 py3Dmol
-pandas
-biopython
-matplotlib
