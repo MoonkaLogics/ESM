@@ -610,7 +610,6 @@ if __name__ == "__main__":
     run_benchmark(PROTEIN_LIST)
 
 import streamlit as st
-import stmol
 import py3Dmol
 
 st.title("ESMFold Benchmarking Pipeline")
